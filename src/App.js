@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './index.css';
 
 function App() {
-  const [color, setColor] =useState(" ")
+  const [color, setColor] =useState("red")
   return(
   <>
   
@@ -27,6 +27,7 @@ function App() {
           </div>
       </div>
   </div>
+  
   </>
  )
 }
